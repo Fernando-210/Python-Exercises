@@ -9,6 +9,3 @@ if vpm <= minimo:
     print ("Emprestimo CONCEDIDO")
 else:
     print ("Emprestimo NEGADO")
-    
-
-
