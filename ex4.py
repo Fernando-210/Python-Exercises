@@ -5,4 +5,4 @@ if n1 > n2:
 elif n2 > n1:
     print ("O segundo numero e MAIOR")
 else:
-    print (" Ambos valores sao iguais")
+    print ("Ambos valores sao iguais")
