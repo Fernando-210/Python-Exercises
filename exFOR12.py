@@ -1,4 +1,6 @@
-numeros = [ 1,2,3,4,5,6,7,8,9,10]
-for numero in numeros:
-    if numero % 3 == 0:
-        print (numero)
+from time import sleep
+for c in range(10,-1,-1):
+    print (c)
+    sleep(0.5)
+print ("KA BUMMMM POWWWW BUMMMM")
+
