@@ -21,5 +21,5 @@ elif opçao == 4:
     print (f"sua compra sera parcela em {totalP} vezes de {parcela:.2f}")
 else: 
     total = preço
-    print("OPÇAO INVALIDA DE PAGAMENTO. TENTE NOVAMENTE")
-print (f"Sua compra de R${preço:.2f} vai custar R${total:.2f} no final ")
+    print("OPÇAO INVALIDA DE PAGAMENTO. POR FAVOR TENTE NOVAMENTE")
+print (f"Sua compra de R${preço:.2f} vai custar um toal de R${total:.2f} no final ")
