@@ -1,6 +1,6 @@
 from datetime import date
 atual = date.today().year
-totmaior= 1
+totmaior= 0
 totmenor = 0
 for person in range(1,8):
     nasc = int(input(f"Em que ano a {person} pessoa nasceu "))
