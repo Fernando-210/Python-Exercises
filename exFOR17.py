@@ -2,6 +2,6 @@ primeiro = int(input("Primeiro termo: "))
 razao = int(input("Segundo termo: "))
 decimo = primeiro + (10 - 1) * razao
 for c in range (primeiro, decimo + razao , razao):
-    print (f"{c}", end="~> ")
-    
+    print (f"{c}", end=" ~> ")
+
            

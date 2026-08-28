@@ -3,4 +3,3 @@ for c in range(10,-1,-1):
     print (c)
     sleep(0.5)
 print ("KA BUMMMM POWWWW BUMMMM")
-
