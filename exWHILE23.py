@@ -1,6 +1,4 @@
 sexo = str(input("Qual seu sexo?:[M/F] ")).strip().upper()[0]
-sexof=sexo
-sexom=sexo
 while sexo not in "MmFf":
     sexo = str(input("Dados invalidos. Por favor, informe seu sexo: ")).strip().upper()[0]
 print(f"Sexo {sexo} registrado com sucesso!")
