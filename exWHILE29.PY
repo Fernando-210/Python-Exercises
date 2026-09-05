@@ -14,4 +14,3 @@ while cont <= n:
     t2 = t3 
     cont += 1
 print ("FIM")
-print("~"*100)
