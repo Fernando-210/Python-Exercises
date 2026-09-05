@@ -13,6 +13,6 @@ while mais != 0:
         termo+= rz
         cont += 1
     print ("PAUSA")
-    mais = int(input("Quantos termos voce quer mostrar a mais?"))
+    mais = int(input("Quantos termos voce quer mostrar a mais? "))
 print (f"Progressao finaliza com {total} termos mostrados")
 
