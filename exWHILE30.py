@@ -5,4 +5,4 @@ while num != 999:
     soma += num
     num = int(input("Digite um numero [999 para PARAR]: "))
 print (f"Voce digitou {cont} numeros a soma dos numeros é {soma}")
-print ("Acabou")
+print ("Acabou a Sessão")

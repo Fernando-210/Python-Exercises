@@ -20,4 +20,4 @@ for p in range(1,5):
 medidade = somaidade / 4
 print (f"A media de idade o grupo é e {medidade} anos")
 print (f"O homem mais velho tem {midadeh} anos e se chama {nvelho}")
-print (f"Ao todo sao {totmulher20} mulheres com menos de 20 anos ")
+print (f"Ao todo são {totmulher20} mulheres com menos de 20 anos de Idade")
