@@ -1,7 +1,7 @@
 from random import randint
-print("=-="*30)
+print("=-="*15)
 print("VAMOS JOGAR PAR OU IMPAR")
-print("=-="*30)
+print("=-="*15)
 v = 0
 while True:
     jogador = int(input("Escolha um numero: "))

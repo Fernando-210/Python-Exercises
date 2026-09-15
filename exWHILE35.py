@@ -1,14 +1,12 @@
 print("-"*15)
 print("CADASTRE UM PESSOA")
 print("-"*15)
-cont = 0
 tot18 = totH = totM20 = 0
 while True:
     idade = int(input("Idade: "))
     sexo = " "
     while sexo not in "MF":
         sexo = str(input("Sexo: ")).strip().upper()[0]
-
     if idade >= 18:
         tot18 += 1
     if sexo == "M":
