@@ -18,7 +18,7 @@ while True:
         resp = str(input("Quer continuar? ")).upper().split()[0]
     if resp == "N":
         break
-print ("FIM DO PROGRAMA")
 print (f"O total da compra deu R${total:.2f}")
 print (f"Temos {totmil} produtos custando mais de R$1000")
 print (f"O produto mais barato foi {barato} que custa R${menor:.2f}")
+print("VOLTE SEMPRE AO LIDL")

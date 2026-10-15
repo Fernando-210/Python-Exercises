@@ -1,14 +1,13 @@
-maior = 0
-menor = 0
-for p in range(1,6):
-    peso = float(input(f"Peso da {p}ª Pessoa: "))
+maior=menor=0
+for p in range(1,8):
+    peso= float(input("Peso dA {p} pessoa"))
     if p == 1:
-        maior = peso
-        menor = peso
+        maior = p
+        menor = p
     else:
         if peso > maior:
             maior = peso
-        if peso < maior:
+        if peso < menor:
             menor = peso
-print (f"O maior peso foi {maior}Kg")
-print (f"E o menor peso foi {menor}Kg")
+print(f"O maior peso lido foi de {maior}kg")
+print(f"O maior peso lido foi de {menor}kg")
